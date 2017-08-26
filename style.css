@@ -1,0 +1,132 @@
+/* Table of content
+ General content
+ 
+ 
+ */
+ 
+ /* General content */
+ .main
+ {
+	 padding-top:3%;
+ }
+  .row
+  {
+	  padding:2% 0;
+  }
+  
+  .green
+  {
+	  background-color:#6495ED;
+  }
+  
+  /* Typography  */
+  body{
+	  font-family: 'Abel',sans-serif;
+	  font-size:1.5em;
+	  color: #000;
+  }
+  
+  h2{
+	  font-family: 'Satisfy',cursive;
+	  font-size:3em;
+	  margin:0.67em;
+	  
+  }
+  
+  h2.bio{
+	  color:#3f7fc;
+  }
+  
+  p.bio{
+	  color:#fff;
+  }
+  
+  /* Header and navigation  */
+  
+  header.main_nav{
+	  padding: 1% 0;
+	  display:block;
+  }
+  
+  .logo{
+	  margin: 5% auto;
+	  text-align:center;
+  }
+  .logo a{
+	  font-size: 3em;
+	  color: #fff;
+	  text-decoration:none;
+	  border: 3px solid #fff;
+	  text-transform: uppercase;
+	  padding: 2px 10px 0 10px;
+	  margin: 0;
+  }
+  
+  .logo a:hover{
+	  background-color: #fff;
+	  color: #7accc8;
+  }
+  
+  
+  /* Images and media  */
+  img{
+	  max-width:100%;
+  }
+  img.avatar{
+	  border-radius:400px;
+	  border:5px solid #fff;
+  }
+  img:hover{opacity:0.8;}
+  
+    /* Footer  */
+	ul.social{
+		display:block;
+		margin: 5% 0;
+		list-style-type: none;
+		text-align: center;
+	}
+	ul.social li{
+		display:inline;
+		font-size:3em;
+		padding:0 2%;
+	}
+	
+	
+	ul.social li a{
+		color:#666;
+	}
+	
+	ul.social li a:hover{
+		color:#000;
+	}
+	
+	p.copyright{
+		text-align:center;
+		color:black;
+		font-size: 1em;
+	}
+	
+	/*  Media Queries */
+	/* Larger than mobile */
+@media (max-width: 479px) 
+{
+	.logo a{
+		font-size:2em;
+		
+	}
+	.portfolio img{
+	 margin-bottom:10%;
+	
+	
+	img.avatar{
+		margin-top:15%;
+	}
+	
+	h2.bio{
+		font-size:2.5em;
+	}
+	h2.bio{
+		font-size:2.5em; color:black;
+	}
+}	
+	
